@@ -1,5 +1,5 @@
 document.getElementById("navbar").innerHTML = `
-<a class="navlink" href="Green-B.github.io/index.html"><div class="navbarbutton">
+<a class="navlink" href="https://green-b.github.io/index.html"><div class="navbarbutton">
 	Home
 </div></a>
 <a class="navlink" href="https://green-b.github.io/about-me.html"><div class="navbarbutton">
