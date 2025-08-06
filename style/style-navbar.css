@@ -1,0 +1,24 @@
+#navbar {
+	width: 100%;
+	height: 70px;
+	background: #9ab49a;
+}
+
+.navbarbutton {
+	width: 150px;
+	height: 100%;
+	float: left;
+	line-height: 70px;
+	text-align: center;
+}
+
+.navbarbutton:hover {
+	background: #cbe4cb;
+}
+
+a.navlink {
+	color: black;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}

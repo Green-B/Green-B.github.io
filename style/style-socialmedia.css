@@ -1,0 +1,21 @@
+div.socialmediabox {
+	height: 60px;
+}
+
+p.socialmediap {
+	text-align: center;
+	line-height: 60px;
+	margin-top: 1em;
+}
+
+img.socialmedialink {
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	vertical-align: middle;
+	transition: width 0.25s;
+}
+
+img.socialmedialink:hover {
+	width: 60px;
+}
