@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Research - Brett Green</title>
+	<link rel="icon" href="img/home-icon.ico">
+	<link rel="stylesheet" href="style/style-general.css">
+	<link rel="stylesheet" href="style/style-navbar.css">
+</head>
+<body>
+	<div id="navbar">
+	</div>
+	<script src="script/script-navbar.js"></script>
+	<div id="centercontent">
+		<div class="centerblock" style="margin-left:80px; margin-right:80px;">
+			<h1>Research</h1>
+			<p>For my scientific publications, see <a href="https://scholar.google.com/citations?user=UV2JUxEAAAAJ" target="_blank">my Google Scholar profile</a>.</p>
+			<br>
+			<h2>Simulating realistic quantum devices for computation and sensing</h2>
+			<p>Quantum computing and quantum sensing both promise revolutionary improvements through scaling. The runtime of a quantum algorithm grows far more slowly than the runtime of a classical algorithm as the algorithm grows more complex, and the accuracy of a collection of quantum sensors increases much more quickly with the number of sensors than the accuracy of a collection of classical sensors. However, the larger a quantum device is, the greater the risk that noise will compromise it by breaking down entanglement.</p>
+			<p>I have experience deriving noise models and developing software to model how noise affects the efficacy of quantum devices. As a quantum science consultant, I co-developed a quantum device simulations suite and implemented noise into both real-time pulse-level Hamiltonian simulations and discretized gate-level simulations. I also have experience in circuit QED for modeling superconducting qubits and am familiar with gating techniques for these and a number of other types of qubits.</p>
+			<br>
+			<h2>Phase transitions in quantum systems</h2>
+			<p>Certain systems will switch between distinct, well-defined states when a parameter is continuously varied, and this discontinuous behavior arising from continuous control constitutes a phase transition. Phase transitions are typically accompanied by notable changes in physical properties, such as volume in the case of a fixed volume of liquid vaporizing into a gas that will fill its container. In quantum Hall systems, transitions may occur between many-body states exhibiting different types of quantum order, and a conducting system with extended states transitions to an insulating system with localized states as disorder increases.</p>
+			<h4>Quantum order in bilayer graphene</h4>
+			<p>Bilayer graphene is an especially interesting quantum Hall system because its eight weekly-split Landau levels near the Fermi level, defined by three quantum degrees of freedom (spin, valley, and orbital), give experiments access to a wide range of quantum ordered states. Adjusting applied magnetic and electric fields controls which order the ground state displays, and although experiments can detect phase transitions, it is difficult for them to identify the underlying phases. Furthermore, because splitting by noninteracting physics is weak, the Coulomb interaction dominates.</p>
+			<p>To support existing efforts to develop a phase diagram as a function of magnetic and electric fields, I worked with my doctoral adviser to refine existing mean-field models, showing that exact diagonalization of the noninteracting Hamltonian and a careful treatment of the 3D nature of the bilayer system change the nature of the predicted transitions. We also showed that compressive pressure could act as a third experimental knob with which experiments could control the orbital degree of freedom, complementing control of spin with the magnetic field and control of valley with the electric field.</p>
+			<p> Reference: “Landau Level Phases in Bilayer Graphene under Pressure at Charge Neutrality,” B. Green and J. Sofo, <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.195432" target="_blank">Phys. Rev. B 101, 195432 (2020)</a></p>
+			<h4>Localization in disordered systems</h4>
+			<p>The localization transition is defined by the transition from infinite-size delocalized states to finite-size localized states, but computational constraints limit us to simulating finite system, so we cannot observe the transition directly in simulations. Existing methods to identify the critical level of disorder at which the transition occurs or to characterize the transition have identified the critical disorder and many scaling properties of the transition. However, they often focus only on system properties rather than individual state properties, which would provide more information about the statistics of localization, and they often rely on scaling methods and curve fits that come at the cost of transparency.</p>
+			<p>I proposed a new metric of state size defined for individual states, the state-resolved coherence length (SRCL). My undergraduate mentee and I demonstrated that not only is the critical disorder clearly identified as a fixed point of the system averaged SRCL normalized by system size, but the critical disorder is also a fixed point of the SRCL’s probability distribution itself.</p>
+			<p>Reference: “Memory Function Representation for the Electrical Conductivity of Solids,” J. Antarasen and B. Green, <a href="https://meetings.aps.org/Meeting/MAR22/Session/A46.13" target="_blank">American Physical Society March Meeting, March 2022</a></p>
+			<br>
+			<h2>Materials properties calculations</h2>
+			<p>High-throughput calculations are playing an increasingly important role in materials discovery, and materials property calculations that are compatible with <i>ab initio</i> quantum chemistry methods are essential for this. Standard methods to calculate conductivity in disordered systems are based on Boltzmann transport theory, which is limited to weak scattering and materials in which interband effects and other quantum effects are not strong. To make the most use of high-throughput materials property prediction, one should use an approach that is accurate for as many materials as possible.</p>
+			<p>Inspired by a memory function formalism previously demonstrated for the free electron gas, I worked with my doctoral adviser to adapt the memory function formalism to arbitrary periodic systems. This memory function formalism is fully quantum and is able to predict the metal-insulator transition, a strictly quantum effect that occurs at sufficiently strong disorder. By demonstrating that the memory function plays an analogous role to an inverse relaxation time in a conductivity formula that includes interband transitions, our results also show how to extend Boltzmann transport theory to account for interband effects.</p>
+			<p>Reference: “Memory Function Formalism for the Electrical Conductivity of Periodic Systems,” B.Green, <a href="https://etda.libraries.psu.edu/catalog/23374brg5241" target="_blank">PhD dissertation, Penn State University, 2022</a></p>
+		</div>
+	</div>
+</body>
+</html>
